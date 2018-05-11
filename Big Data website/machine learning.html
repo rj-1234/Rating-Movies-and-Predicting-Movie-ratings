@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>MRPM</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">  
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="abc.png" type="image/x-icon">
+	<link rel="icon" href="abc.png" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+
+   <!-- Machine Learning
+   ================================================== -->
+   <section id="home" style="background-image: url(./images/ml1.jpg);">
+    <div class="overlay"></div>
+    <div class="home-content-table">  
+       <div class="home-content-tablecell">
+        <div class="row">
+          <div class="col-twelve">            
+            <h3 class="animate-intro"></h3>
+            <h1 class="animate-intro">
+              Machine <br>
+              Learning
+            </h1> 
+            <div class="more animate-intro">
+              <a class="smoothscroll button stroke" href="#about">
+                Learn More
+              </a>
+            </div>    
+          </div> <!-- end col-twelve --> 
+        </div> <!-- end row --> 
+       </div> <!-- end home-content-tablecell -->        
+    </div> <!-- end home-content-table -->
+   </section> <!-- end home -->
+
+<!-- Architecture
+   ================================================== -->
+   <section id="ML Architecture">
+   <section id="about">
+      <div class="col-full">
+        <h3 class="animate-this">Architecture</h3>
+        <img src="images/ML Archi.png" alt="Architecture" style="width:90%;height:90%;">
+   </section> <!-- end about -->
+ </section>
+
+
+ <!-- Architecture
+   ================================================== -->
+   <section id="Pipeline">
+   <section id="about">
+      <div class="col-full">
+        <h3 class="animate-this">Pipeline</h3>
+        <img src="images/ML pipeline.png" alt="Pipeline" style="width:90%;height:90%;">
+   </section> <!-- end about -->
+ </section>
+
+
+  <!-- about
+   ================================================== -->
+   <section id="about" style="background: black;">
+
+    <div class="row about-wrap">
+      <div class="col-full">
+        <div class="about-profile-bg"></div>
+        <div class="intro">
+          <h3 class="animate-this">Result</h3><br><br>
+          <div class="col-twelve">            
+            <div class="more animate-intro">
+              <div class="col-twelve">
+                <a  class="smoothscroll button stroke" href="http://localhost:8888/notebooks/Movie_Rating_Prediction.ipynb/#/" target="_blank">Jupyter</a>
+                <a  class="smoothscroll button stroke" href="#SP">Scatter Plot</a>
+                <a  class="smoothscroll button stroke" href="#Comparison">Comparison</a>
+                <a  class="smoothscroll button stroke" href="#Test">Test Residual</a>
+                <a  class="smoothscroll button stroke" href="#Train">Train Residual</a>
+                
+              </div> 
+            </div>   
+            <script>
+              function mySA(name) {
+                var e = document.getElementById(name);
+                 if(e.style.display === 'none')
+                    e.style.display = 'block';
+                 else
+                    e.style.display = 'none';
+                }
+            </script> 
+          </div> <!-- end col-twelve --> 
+        </div> <!-- end row --> 
+      </div> <!-- end col-full  -->
+    </div> <!-- end about-wrap  -->
+   </section> <!-- end about -->
+ 
+ <!-- Jupyter
+   ================================================== 
+   <section id="Jupyter" style="display:block">
+   <section id="about" >
+      <iframe src="http://localhost:8888/notebooks/Movie_Rating_Prediction.ipynb/" style="height: 1000px; width: 90%;"></iframe>
+   </section> 
+ </section> -->
+
+<!-- Plot
+   ================================================== -->
+   <section id="SP" style="display:block">
+   <section id="about" style="background: #1f2326;">   
+          <img src="images/graph/LabelPrediction.png" alt="LabelPrediction" style="width:90%;height:90%;">
+          <img src="images/graph/scatterPlot.png" alt="scatterPlot" style="width:90%;height:90%;">
+   </section> <!-- end about -->
+ </section>
+
+<!-- Comparison
+   ================================================== -->
+   <section id="Comparison" style="display:block">
+   <section id="about">
+      <img src="images/graph/Comparison.jpeg" alt="Comparison" style="width:90%;height:90%;">
+   </section> <!-- end about -->
+ </section>
+
+<!-- Test Residual
+   ================================================== -->
+   <section id="Test" style="display:block">
+   <section id="about" style="background: #1f2326;">    
+      <img src="images/graph/Test Residual.png" alt="Test Residual" style="width:90%;height:90%;">
+   </section> <!-- end about -->
+ </section>
+
+ <!-- Train Residual
+   ================================================== -->
+   <section id="Train" style="display:block">
+   <section id="about" >
+      <img src="images/graph/Train Residual.png" alt="Train Residual" style="width:90%;height:90%;">
+   </section> <!-- end about -->
+ </section>
+
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
